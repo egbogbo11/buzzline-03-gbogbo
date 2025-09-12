@@ -41,10 +41,10 @@ load_dotenv()
 
 
 def get_kafka_topic() -> str:
-    """Fetch Kafka topic from environment or use default."""
-    topic = os.getenv("SMOKER_TOPIC", "unknown_topic")
+    topic = os.getenv("SMOKER_TOPIC") or os.getenv("KAFKA_TOPIC") or "smoker_temps"
     logger.info(f"Kafka topic: {topic}")
     return topic
+
 
 
 def get_kafka_consumer_group_id() -> str:
@@ -177,7 +177,8 @@ def main() -> None:
     logger.info(f"Polling messages from topic '{topic}'...")
     try:
         for message in consumer:
-            message_str = message.value
+            raw = message.value
+            message_str = raw.decode("utf-8") if isinstance(raw, (bytes, bytearray)) else str(raw)
             logger.debug(f"Received message at offset {message.offset}: {message_str}")
             process_message(message_str, rolling_window, window_size)
     except KeyboardInterrupt:
