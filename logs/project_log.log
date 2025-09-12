@@ -359,3 +359,145 @@
 2025-09-12 18:19:06 | WARNING | Producer interrupted by user.
 2025-09-12 18:19:06 | INFO | Kafka producer closed.
 2025-09-12 18:19:06 | INFO | END producer.
+2025-09-12 18:33:14 | INFO | Logging to file: logs/project_log.log
+2025-09-12 18:33:14 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 18:33:14 | INFO | Project root: PROJECT_ROOT
+2025-09-12 18:33:14 | INFO | Data folder: PROJECT_ROOT/data
+2025-09-12 18:33:14 | INFO | Data file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 18:33:14 | INFO | START producer.
+2025-09-12 18:33:14 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:33:14 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'HpVDt2xUThyOIoAj7H8wjg', 'controller_id': 1}
+2025-09-12 18:33:14 | INFO | Kafka topic: smoker_csv
+2025-09-12 18:33:14 | INFO | Message interval: 5 seconds
+2025-09-12 18:33:14 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:33:14 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-12 18:33:14 | INFO | Kafka producer successfully created.
+2025-09-12 18:33:14 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:33:14 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-12 18:33:14 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-12 18:33:14 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-12 18:33:14 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-12 18:33:15 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-12 18:33:15 | INFO | Opening data file in read mode: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 18:33:15 | INFO | Reading data from file: PROJECT_ROOT/data/smoker_temps.csv
+2025-09-12 18:33:15 | INFO | Note: Low temperature reading 70.4°F
+2025-09-12 18:33:15 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:15.006046', 'temperature': 70.4}
+2025-09-12 18:33:20 | INFO | Note: Low temperature reading 70.8°F
+2025-09-12 18:33:20 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:20.010663', 'temperature': 70.8}
+2025-09-12 18:33:25 | INFO | Note: Low temperature reading 71.2°F
+2025-09-12 18:33:25 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:25.014934', 'temperature': 71.2}
+2025-09-12 18:33:30 | INFO | Note: Low temperature reading 71.6°F
+2025-09-12 18:33:30 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:30.018153', 'temperature': 71.6}
+2025-09-12 18:33:35 | INFO | Note: Low temperature reading 72.0°F
+2025-09-12 18:33:35 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:35.022160', 'temperature': 72.0}
+2025-09-12 18:33:40 | INFO | Note: Low temperature reading 72.4°F
+2025-09-12 18:33:40 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:40.024758', 'temperature': 72.4}
+2025-09-12 18:33:45 | INFO | Note: Low temperature reading 72.8°F
+2025-09-12 18:33:45 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:45.027458', 'temperature': 72.8}
+2025-09-12 18:33:46 | INFO | Logging to file: logs/project_log.log
+2025-09-12 18:33:46 | INFO | Log sanitization enabled, personal info removed
+2025-09-12 18:33:46 | INFO | START consumer.
+2025-09-12 18:33:46 | INFO | Kafka topic: smoker_csv
+2025-09-12 18:33:46 | INFO | Kafka consumer group id: smoker_group
+2025-09-12 18:33:46 | INFO | Rolling window size: 10
+2025-09-12 18:33:46 | INFO | Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-12 18:33:46 | INFO | Rolling window size: 10
+2025-09-12 18:33:46 | INFO | Kafka broker address: localhost:9092
+2025-09-12 18:33:46 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-12 18:33:46 | INFO | Kafka consumer created successfully.
+2025-09-12 18:33:46 | INFO | Polling messages from topic 'smoker_csv'...
+2025-09-12 18:33:49 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:15.006046', 'temperature': 70.4}
+2025-09-12 18:33:49 | INFO | Rolling window size: 10
+2025-09-12 18:33:49 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:20.010663', 'temperature': 70.8}
+2025-09-12 18:33:49 | INFO | Rolling window size: 10
+2025-09-12 18:33:49 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:25.014934', 'temperature': 71.2}
+2025-09-12 18:33:49 | INFO | Rolling window size: 10
+2025-09-12 18:33:49 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:30.018153', 'temperature': 71.6}
+2025-09-12 18:33:49 | INFO | Rolling window size: 10
+2025-09-12 18:33:49 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:35.022160', 'temperature': 72.0}
+2025-09-12 18:33:49 | INFO | Rolling window size: 10
+2025-09-12 18:33:49 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:40.024758', 'temperature': 72.4}
+2025-09-12 18:33:49 | INFO | Rolling window size: 10
+2025-09-12 18:33:49 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:45.027458', 'temperature': 72.8}
+2025-09-12 18:33:49 | INFO | Rolling window size: 10
+2025-09-12 18:33:50 | INFO | Note: Low temperature reading 73.2°F
+2025-09-12 18:33:50 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:50.032823', 'temperature': 73.2}
+2025-09-12 18:33:50 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:50.032823', 'temperature': 73.2}
+2025-09-12 18:33:50 | INFO | Rolling window size: 10
+2025-09-12 18:33:55 | INFO | Note: Low temperature reading 73.6°F
+2025-09-12 18:33:55 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:33:55.036329', 'temperature': 73.6}
+2025-09-12 18:33:55 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:33:55.036329', 'temperature': 73.6}
+2025-09-12 18:33:55 | INFO | Rolling window size: 10
+2025-09-12 18:34:00 | INFO | Note: Low temperature reading 74.0°F
+2025-09-12 18:34:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:00.041289', 'temperature': 74.0}
+2025-09-12 18:34:00 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:00.041289', 'temperature': 74.0}
+2025-09-12 18:34:00 | INFO | Rolling window size: 10
+2025-09-12 18:34:00 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:00 | INFO | [SUMMARY] Window full (10 readings). Avg temp=72.2°F
+2025-09-12 18:34:05 | INFO | Note: Low temperature reading 74.4°F
+2025-09-12 18:34:05 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:05.044201', 'temperature': 74.4}
+2025-09-12 18:34:05 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:05.044201', 'temperature': 74.4}
+2025-09-12 18:34:05 | INFO | Rolling window size: 10
+2025-09-12 18:34:05 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:05 | INFO | [SUMMARY] Window full (10 readings). Avg temp=72.6°F
+2025-09-12 18:34:10 | INFO | Note: Low temperature reading 74.8°F
+2025-09-12 18:34:10 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:10.046244', 'temperature': 74.8}
+2025-09-12 18:34:10 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:10.046244', 'temperature': 74.8}
+2025-09-12 18:34:10 | INFO | Rolling window size: 10
+2025-09-12 18:34:10 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:10 | INFO | [SUMMARY] Window full (10 readings). Avg temp=73.0°F
+2025-09-12 18:34:15 | INFO | Note: Low temperature reading 75.2°F
+2025-09-12 18:34:15 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:15.048953', 'temperature': 75.2}
+2025-09-12 18:34:15 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:15.048953', 'temperature': 75.2}
+2025-09-12 18:34:15 | INFO | Rolling window size: 10
+2025-09-12 18:34:15 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:15 | INFO | [SUMMARY] Window full (10 readings). Avg temp=73.4°F
+2025-09-12 18:34:20 | INFO | Note: Low temperature reading 75.6°F
+2025-09-12 18:34:20 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:20.053777', 'temperature': 75.6}
+2025-09-12 18:34:20 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:20.053777', 'temperature': 75.6}
+2025-09-12 18:34:20 | INFO | Rolling window size: 10
+2025-09-12 18:34:20 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:20 | INFO | [SUMMARY] Window full (10 readings). Avg temp=73.8°F
+2025-09-12 18:34:25 | INFO | Note: Low temperature reading 76.0°F
+2025-09-12 18:34:25 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:25.055008', 'temperature': 76.0}
+2025-09-12 18:34:25 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:25.055008', 'temperature': 76.0}
+2025-09-12 18:34:25 | INFO | Rolling window size: 10
+2025-09-12 18:34:25 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:25 | INFO | [SUMMARY] Window full (10 readings). Avg temp=74.2°F
+2025-09-12 18:34:30 | INFO | Note: Low temperature reading 76.4°F
+2025-09-12 18:34:30 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:30.058091', 'temperature': 76.4}
+2025-09-12 18:34:30 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:30.058091', 'temperature': 76.4}
+2025-09-12 18:34:30 | INFO | Rolling window size: 10
+2025-09-12 18:34:30 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:30 | INFO | [SUMMARY] Window full (10 readings). Avg temp=74.6°F
+2025-09-12 18:34:35 | INFO | Note: Low temperature reading 76.8°F
+2025-09-12 18:34:35 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:35.060110', 'temperature': 76.8}
+2025-09-12 18:34:35 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:35.060110', 'temperature': 76.8}
+2025-09-12 18:34:35 | INFO | Rolling window size: 10
+2025-09-12 18:34:35 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:35 | INFO | [SUMMARY] Window full (10 readings). Avg temp=75.0°F
+2025-09-12 18:34:40 | INFO | Note: Low temperature reading 77.2°F
+2025-09-12 18:34:40 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:40.065294', 'temperature': 77.2}
+2025-09-12 18:34:40 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:40.065294', 'temperature': 77.2}
+2025-09-12 18:34:40 | INFO | Rolling window size: 10
+2025-09-12 18:34:40 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:40 | INFO | [SUMMARY] Window full (10 readings). Avg temp=75.4°F
+2025-09-12 18:34:45 | INFO | Note: Low temperature reading 77.6°F
+2025-09-12 18:34:45 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:45.069025', 'temperature': 77.6}
+2025-09-12 18:34:45 | INFO | Processed JSON message: {'timestamp': '2025-09-12T23:34:45.069025', 'temperature': 77.6}
+2025-09-12 18:34:45 | INFO | Rolling window size: 10
+2025-09-12 18:34:45 | INFO | Max stall temperature range: 0.2 F
+2025-09-12 18:34:45 | INFO | [SUMMARY] Window full (10 readings). Avg temp=75.8°F
+2025-09-12 18:34:48 | WARNING | Consumer interrupted by user.
+2025-09-12 18:34:48 | INFO | Kafka consumer for topic 'smoker_csv' closed.
+2025-09-12 18:34:50 | INFO | Note: Low temperature reading 78.0°F
+2025-09-12 18:34:50 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:50.073681', 'temperature': 78.0}
+2025-09-12 18:34:55 | INFO | Note: Low temperature reading 78.4°F
+2025-09-12 18:34:55 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:34:55.077273', 'temperature': 78.4}
+2025-09-12 18:35:00 | INFO | Note: Low temperature reading 78.8°F
+2025-09-12 18:35:00 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:35:00.079784', 'temperature': 78.8}
+2025-09-12 18:35:05 | INFO | Note: Low temperature reading 79.2°F
+2025-09-12 18:35:05 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-12T23:35:05.084509', 'temperature': 79.2}
+2025-09-12 18:35:06 | WARNING | Producer interrupted by user.
+2025-09-12 18:35:06 | INFO | Kafka producer closed.
+2025-09-12 18:35:06 | INFO | END producer.
