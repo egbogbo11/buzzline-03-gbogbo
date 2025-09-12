@@ -1,0 +1,586 @@
+2025-09-12 18:17:29 | WARNING | ALERT keyword 'python' in message: I love Python!
+2025-09-12 18:17:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=320 top_authors=[('Diana', 86), ('Alice', 78), ('Eve', 56)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=340 top_authors=[('Diana', 94), ('Alice', 82), ('Eve', 57)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=360 top_authors=[('Diana', 97), ('Alice', 89), ('Bob', 63)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=380 top_authors=[('Diana', 104), ('Alice', 92), ('Bob', 65)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=400 top_authors=[('Diana', 108), ('Alice', 96), ('Eve', 68)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=420 top_authors=[('Diana', 113), ('Alice', 102), ('Eve', 73)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=440 top_authors=[('Diana', 121), ('Alice', 106), ('Eve', 74)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=460 top_authors=[('Diana', 124), ('Alice', 113), ('Bob', 80)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-12 18:17:29 | INFO | Message received from author: Charlie
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | [SUMMARY] messages=480 top_authors=[('Diana', 131), ('Alice', 116), ('Bob', 82)]
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:29 | INFO | Message received from author: Bob
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:29 | INFO | Message received from author: Eve
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-12 18:17:29 | INFO | Message received from author: Alice
+2025-09-12 18:17:29 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-12 18:17:29 | INFO | Message received from author: Diana
+2025-09-12 18:17:29 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:29 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['stream'] in message: Streaming data is fun.
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-12 18:17:30 | INFO | Message received from author: Charlie
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-12 18:17:30 | INFO | Message received from author: Charlie
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
+2025-09-12 18:17:30 | INFO | Message received from author: Charlie
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-12 18:17:30 | INFO | Message received from author: Bob
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | [SUMMARY] messages=500 top_authors=[('Diana', 135), ('Alice', 120), ('Eve', 85)]
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-12 18:17:30 | INFO | Message received from author: Charlie
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Charlie'}
+2025-09-12 18:17:30 | INFO | Message received from author: Charlie
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Bob'}
+2025-09-12 18:17:30 | INFO | Message received from author: Bob
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-12 18:17:30 | INFO | Message received from author: Bob
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | [SUMMARY] messages=520 top_authors=[('Diana', 140), ('Alice', 126), ('Eve', 90)]
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-12 18:17:30 | INFO | Message received from author: Eve
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Eve
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-12 18:17:30 | INFO | Message received from author: Charlie
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob'}
+2025-09-12 18:17:30 | INFO | Message received from author: Bob
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Bob'}
+2025-09-12 18:17:30 | INFO | Message received from author: Bob
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['distributed'] in message: Distributed systems are fascinating.
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | WARNING | ALERT keyword(s) ['python'] in message: I love Python!
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-12 18:17:30 | INFO | Message received from author: Alice
+2025-09-12 18:17:30 | WARNING | ALERT author watch -> Alice
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Charlie'}
+2025-09-12 18:17:30 | INFO | Message received from author: Charlie
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Diana'}
+2025-09-12 18:17:30 | INFO | Message received from author: Diana
+2025-09-12 18:17:30 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
