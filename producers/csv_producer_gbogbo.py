@@ -93,7 +93,7 @@ def generate_messages(file_path: pathlib.Path):
                         "temperature": float(row["temperature"]),
                     }
 
-                    # --- minimal custom warnings ---
+                    # --- temp message ---
                     temp = message["temperature"]
                     if temp > 300:
                         logger.warning(f"ALERT High temperature detected: {temp}°F")
